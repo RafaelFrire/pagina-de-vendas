@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+    <title>Pagina de venda</title>
+</head>
+<body>
+    <nav>
+        <!-- Sessão Home-->
+        <div class="home-container">
+             <!-- Elementos do lado Esquerdo-->
+            <ul class="list-left">
+                <li><img src="https://seeklogo.com/images/S/shop-logo-89B4B24CD0-seeklogo.com.png" alt=""></li>
+                <div class="search">
+                    <li><input type="search"  placeholder="Pesquisar" id="barra-pesquisa"></li>
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    
+                </div>
+            </ul>
+             <!-- Elementos do lado Direito-->
+            <ul class="list-right">
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Kids</a></li>
+                <li> <span><i class="fa-solid fa-cart-plus"></i></span> </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+         <!-- Sessão principal-->
+        <div class="container-vendas">
+            <!-- Elementos do lado esquerdo-->
+            <div class="vendas-left">
+                <div class=vendas-slide>
+                    <img src="imgs/foto1.png" >
+                </div>
+                
+                <div class="image-list">
+                    <img src="imgs/foto1.png" id="miniatura-1">
+                    <img src="imgs/foto2.jpg" id="miniatura-2">
+                    <img src="imgs/foto3.jpg" id="miniatura-3">
+                    <img src="imgs/foto4.jpg" id="miniatura-4">
+                </div>
+            </div>
+
+    <!-- Elementos do lado direito-->
+            <div class="vendas-right">
+                <div class="titles-right">
+                    <h1>Moletom Anti Social Club Original</h1>
+                    <h3>Marca: Anti Social</h3>
+                </div>
+
+                <div class="price-right">
+                    <h2>R$ 900,00 </h2>
+                    <h3>10x R$ 90,00 sem juros</h3>
+
+
+                    <div class="icons-right">
+                        <i class="fa-brands fa-pix"></i>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-solid fa-barcode"></i>
+                    </div>
+
+                    <div class="buttons-right">
+                        <input type="number" min="0" max="30" id="">
+                        <div class="container-botoes">
+                            <button id="b-comprar" type="submit">Comprar agora</button>
+                            <button id="b-adicionar" type="submit">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
